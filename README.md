@@ -2,7 +2,7 @@
 
 ## 给玩家：去哪下载 exe/安装包
 
-请到本仓库的 [Releases](RELEASES_URL_PLACEHOLDER) 页面下载 Windows 可执行文件。
+请到本仓库的 [Releases](https://github.com/dvdxfv/dvdxfv-connect4/releases) 页面下载 Windows 可执行文件。
 
 | 附件名 | 适合谁 | 怎么用 |
 |---|---|---|
