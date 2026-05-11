@@ -10,13 +10,14 @@ if (-not (Test-Path $OutputDir)) {
 }
 
 # Generate ASCII release asset names from local binaries.
-$setupCandidates = Get-ChildItem -Path $SourceDir -Filter "*.exe" |
-    Where-Object { $_.Name -match "setup|安装包" } |
-    Select-Object -First 1
+# Rule: choose the largest exe as installer and the smallest exe as portable.
+$exeFiles = Get-ChildItem -Path $SourceDir -Filter "*.exe" | Sort-Object Length
+if ($exeFiles.Count -lt 2) {
+    throw "Expected at least two exe files (installer + portable) in repository root."
+}
 
-$portableCandidates = Get-ChildItem -Path $SourceDir -Filter "*.exe" |
-    Where-Object { $_.Name -match "ai|对战|棋" -and $_.Name -notmatch "setup|安装包" } |
-    Select-Object -First 1
+$portableCandidates = $exeFiles[0]
+$setupCandidates = $exeFiles[-1]
 
 if (-not $setupCandidates) {
     throw "Setup installer not found. Put installer exe in repository root before packaging."
