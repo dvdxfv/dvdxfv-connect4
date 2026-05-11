@@ -114,8 +114,10 @@
 
 ---
 
-## 9. License
+## 许可证
 
-MIT，详见 `LICENSE`。
+本项目在 **MIT License** 下开源，完整条文见仓库根目录 `[LICENSE](LICENSE)`。
 
----
+> 第三方依赖（如 [Pygame](https://www.pygame.org/)）分别遵循其各自许可证；分发或打包时需一并遵守。
+
+署名： **DVDXFV**；联系邮箱写在 `[LICENSE](LICENSE)` 首行版权说明中。
