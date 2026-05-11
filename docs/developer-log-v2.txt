@@ -1,0 +1,12 @@
+Developer Log v2.0
+Date: 2026-05-11
+
+[Version summary]
+- Reorganized repository into src/docs/docs/demo/packaging structure.
+- Added release-oriented packaging script to generate ASCII asset names.
+- Added MIT license, root README.md, and repository hygiene files.
+- Standardized developer log path to ASCII naming for GitHub compatibility.
+
+[Runtime notes]
+- Game remains distributed as packaged Windows binaries.
+- Portable and installer binaries are published via GitHub Releases assets.

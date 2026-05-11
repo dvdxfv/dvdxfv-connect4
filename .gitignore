@@ -1,0 +1,27 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Build / package outputs
+build/
+dist/
+release-assets/
+*.zip
+*.7z
+
+# Local runtime binaries (publish via GitHub Releases assets)
+*.exe
+*.dll
+lib/
+jietu/

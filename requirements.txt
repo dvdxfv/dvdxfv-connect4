@@ -1,0 +1,2 @@
+# This repository currently distributes packaged desktop binaries via GitHub Releases.
+# No Python source dependencies are required for repository-only operations.
