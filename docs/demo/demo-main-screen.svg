@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#1e1e1e"/>
-  <rect x="40" y="40" width="880" height="460" rx="12" fill="#2a2a2a" stroke="#5c5c5c"/>
-  <text x="60" y="90" fill="#ffffff" font-size="28" font-family="Arial">DVDXFV Connect Four - Main Screen (Placeholder)</text>
-  <text x="60" y="140" fill="#cfcfcf" font-size="18" font-family="Arial">Use real gameplay screenshots in this folder for release README.</text>
-</svg>
